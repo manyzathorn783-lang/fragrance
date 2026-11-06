@@ -43,7 +43,7 @@ set "ADMIN_OPENED="
 echo Flutter version:
 call flutter --version
 echo.
-call flutter pub get
+   call flutter pub get
 if errorlevel 1 goto end
 echo.
 
